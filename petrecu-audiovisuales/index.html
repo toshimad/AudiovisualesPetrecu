@@ -1,3 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audiovisuales Petrecu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            animation: fondoAnimado 20s infinite;
+        }
+        
+        @keyframes fondoAnimado {
+            0% { background-image: url('altavoces.jpg'); }
+            25% { background-image: url('televisores.jpg'); }
+            50% { background-image: url('ordenadores.jpg'); }
+            75% { background-image: url('proyectores.jpg'); }
+            100% { background-image: url('cables.jpg'); }
+        }
+        
+        header {
+            background: linear-gradient(to right, #001f3f, #0074D9, #00a8a8);
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+            animation: fadeIn 2s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        nav {
+            background-color: #0074D9;
+            padding: 15px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 20px;
+            transition: color 0.3s ease;
+        }
+        
+        nav a:hover {
+            color: #00a8a8;
+        }
+        
+        .section {
+            padding: 60px;
+            animation: slideIn 1.5s ease-in-out;
+        }
+        
+        @keyframes slideIn {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        .button {
+            display: inline-block;
+            background: linear-gradient(to right, #0074D9, #00a8a8);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 30px;
+            margin-top: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .button:hover {
+            transform: scale(1.1);
+            background: linear-gradient(to right, #00a8a8, #0074D9);
+        }
+        
+        footer {
+            background-color: #001f3f;
+            padding: 25px;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        
+        .gallery img {
+            width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        
+        .collaborators img {
+            width: 150px;
+            margin: 15px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        
+        .collaborators img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head><link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<body>
+    <header>
+        <div id="logo-container">
+            <img src="logo.png" alt="Logo Audiovisuales Petrecu" width="150">
+            <div id="final-logo">Todo en Audiovisuales Petrecu</div>
+        </div>
+    </header>
+    
+    <nav>
+        <a href="#sobre-nosotros">Sobre Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    
+    <section id="sobre-nosotros" class="section">
+        <h1>Sobre Nosotros</h1>
+        <p>En Audiovisuales Petrecu nos especializamos en la instalación de sistemas de audio, video, informática y redes. Con una trayectoria sólida, ofrecemos soluciones innovadoras en antenas, videovigilancia, cableado estructurado y mucho más. Hemos trabajado con reconocidas empresas como El Corte Inglés, Studio22, Asisa, The Irish Temple, además de una amplia cartera de clientes particulares.</p>
+    </section>
+    
+    <section id="servicios" class="section">
+        <h1>Servicios</h1>
+        <p>Ofrecemos servicios de instalación y configuración en:</p>
+        <ul>
+            <li>Televisores, barras de sonido y sistemas Home Cinema</li>
+            <li>Ordenadores, software, antivirus y copias de seguridad</li>
+            <li>Redes Wi-Fi, amplificadores y cableado estructurado</li>
+            <li>Cámaras de seguridad y sistemas de videovigilancia</li>
+        </ul>
+    </section>
+    
+    <section id="galeria" class="section">
+        <h1>Galería</h1>
+        <p>Aquí podrás ver algunos de nuestros trabajos realizados.</p>
+        <div class="gallery">
+            <img src="imagen1.jpg" alt="Instalación 1">
+            <img src="imagen2.jpg" alt="Instalación 2">
+        </div>
+    </section>
+    
+    <section id="contacto" class="section">
+        <h1>Contacto</h1>
+        <p>Teléfono: +34 600 123 456</p>
+        <p>Email: contacto@audiovisualespetrecu.com</p>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <a href="#" class="button">Facebook</a>
+        <a href="#" class="button">Instagram</a>
+        <br><br>
+        <a href="https://wa.me/34600123456" class="button">WhatsApp</a>
+    </section>
+    
+    <footer>
+        &copy; 2025 Audiovisuales Petrecu - Todos los derechos reservados
+<a href="legal/aviso-legal.html">Aviso Legal</a> | 
+    <a href="legal/privacidad.html">Privacidad</a>
+    </footer>
+</body><script src="js/main.js"></script>
+</html>
 
 
 <!DOCTYPE html>
